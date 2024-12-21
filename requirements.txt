@@ -1,0 +1,5 @@
+pillow==11.0.0
+pytesseract==0.3.13
+setuptools==75.6.0
+twine==6.0.1
+wheel==0.45.1
