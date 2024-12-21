@@ -66,7 +66,7 @@ jobs:
             echo "The new version $NEW_VERSION is greater than the latest version $LATEST_VERSION on PyPI."
           fi
 
-  setUp&Build:
+  setUp-Build:
     needs: [details, check_pypi]
     runs-on: ubuntu-latest
     steps:
